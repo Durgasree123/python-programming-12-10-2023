@@ -1,0 +1,21 @@
+#sno,sname,group,s1,s2,s3 calculate total,avg 
+sno=int(input("enter a sno:"))
+sname=(input("enter a sname:"))
+group=(input("enter a group:"))
+s1=int(input("enter python marks:"))
+s2=int(input("enter cs marks:"))
+s3=int(input("enter statistics marks:"))
+total=s1+s2+s3
+avg=total//3
+if avg>90:
+    print("O grade")
+elif avg>80:
+    print("A grade")
+elif avg>70:
+    print("B grade")
+elif avg>60:
+    print("c grade")
+elif avg>50:
+    print("D garde")
+else:
+    print("pass")
